@@ -3,8 +3,8 @@ export const defaultLang = 'en' as const;
 export const ui = {
   'en': {
     // Site Metadata
-    'siteMetadata.title': 'Astro Starter Blog',
-    'siteMetadata.headerTitle': 'Astro Starter Blog',   
+    'siteMetadata.title': 'Mind Sparks - Blog',
+    'siteMetadata.headerTitle': 'Mind Sparks - Blog',   
     'siteMetadata.description': 'A blog created with Astro and Tailwind.css',
     'siteMetadata.language': 'en-US',
 
@@ -68,5 +68,72 @@ export const ui = {
 
     // SEO
     'seo.pagination.page': '%s - Page {page}',
+  },
+  'id': {
+    // Metadata Situs
+    'siteMetadata.title': 'Blog Awal Astro',
+    'siteMetadata.headerTitle': 'Blog Awal Astro',   
+    'siteMetadata.description': 'Sebuah blog yang dibuat dengan Astro dan Tailwind.css',
+    'siteMetadata.language': 'id-ID',
+
+    // Halaman
+    'pages.home.latestPosts': 'Postingan terbaru',
+    'pages.home.viewAllPosts': 'Lihat semua postingan',
+    'pages.home.noPosts': 'Tidak ada postingan ditemukan',
+    'pages.home.readMoreAbout': 'Baca lebih lanjut tentang {title}',
+    'pages.home.readMore': 'Baca selengkapnya',
+    'pages.tags.title': 'Tag',
+    'pages.tags.description': 'Semua tag yang digunakan di blog',
+    'pages.tags.allTags': 'Semua tag',
+    'pages.tags.noTags': 'Tidak ada tag ditemukan',
+    'pages.tags.viewPosts': 'Lihat semua postingan dengan tag {tag}',
+    'pages.projects.title': 'Proyek',
+    'pages.projects.description': 'Semua proyek',
+    'pages.projects.allProjects': 'Semua proyek',
+    'pages.projects.showcase': 'Tampilkan proyek Anda',
+    'pages.blog.title': 'Blog',
+    'pages.blog.description': 'Semua postingan blog',
+    'pages.404.title': '404 - Tidak Ditemukan',
+    'pages.404.description': 'Halaman yang Anda cari tidak ada.',
+    'pages.404.backToHome': 'Kembali ke beranda',
+
+    // Komponen
+    'components.scrollTopAndComments.scrollTop': 'Kembali ke atas',
+    'components.themeSwitcher.toggleDarkMode': 'Ganti Mode Gelap',
+    'components.card.linkToPost': 'Baca lebih lanjut tentang {title}',
+    'components.mobileNav.toggleMenu': 'Ganti Menu',
+    'components.listPostCover.publishedAt': 'Dipublikasikan pada',
+    'components.pagination.previous': 'Sebelumnya',
+    'components.pagination.next': 'Berikutnya',
+    'components.socialShareButtons.sharing': 'Berbagi itu peduli!',
+
+    // Navigasi
+    'nav.home': 'Beranda',
+    'nav.blog': 'Blog',
+    'nav.projects': 'Proyek',
+    'nav.tags': 'Tag',
+    'nav.about': 'Tentang',
+
+    // Tata Letak
+    'layouts.authorLayout.aboutAuthor': 'Tentang {author}',
+    'layouts.authorLayout.latestPosts': 'Postingan terbaru oleh penulis',
+    'layouts.listWithTagsLayout.allPosts': 'Semua postingan',
+    'layouts.listWithTagsLayout.publishedAt': 'Dipublikasikan pada',
+    'layouts.postLayout.publishedAt': 'Dipublikasikan pada',
+    'layouts.postLayout.authors': 'Penulis',
+    'layouts.postLayout.authorName': 'Nama',
+    'layouts.postLayout.authorTwitter': 'Twitter',
+    'layouts.postLayout.draftMessage': 'Ini adalah draf. Mungkin belum selesai atau mengandung kesalahan.',
+    'layouts.postLayout.tableOfContents': 'Daftar Isi',
+    'layouts.postLayout.tags': 'Tag',
+    'layouts.postLayout.previousPost': 'Postingan sebelumnya',
+    'layouts.postLayout.nextPost': 'Postingan berikutnya',
+    'layouts.postLayout.relatedPosts': 'Postingan terkait',
+    'layouts.postLayout.backToBlog': 'Kembali ke blog',
+    'layouts.simplePostLayout.previousPost': 'Postingan sebelumnya: {title}',
+    'layouts.simplePostLayout.nextPost': 'Postingan berikutnya: {title}',
+
+    // SEO
+    'seo.pagination.page': '%s - Halaman {page}',
   }
 };
